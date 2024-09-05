@@ -1,0 +1,2 @@
+# Blue-Team-Operations-Lab-Active-Directory-Threat-Detection-with-Splunk-Sysmon-and-Atomic-Red-Team
+This project creates an Active Directory (AD) security lab integrating Splunk for log collection, Sysmon for telemetry, and Atomic Red Team for attack simulations. It provides hands-on experience in configuring network security, detecting cyberattacks and analyzing telemetry, making it ideal for learning blue team operations and threat detection.
