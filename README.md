@@ -25,7 +25,7 @@ This project simulates a real-world Active Directory (AD) environment, focusing 
 
 This section provides a detailed network diagram that visualizes the lab's structure. The diagram was created using **draw.io** and illustrates the relationships between key components such as the Domain Controller, Target Machine, Attack Machine, and Splunk Server. The network flows and connections are mapped out for easy understanding of the lab architecture.
 
-![Screenshot 2024-09-09 204521](https://github.com/user-attachments/assets/c69e0f48-d9e9-4e39-91cd-a5984441850a)
+   ![Screenshot 2024-09-09 204521](https://github.com/user-attachments/assets/c69e0f48-d9e9-4e39-91cd-a5984441850a)
 
 *Explanation*: The diagram helps in visualizing the internal network and its configuration for Active Directory, attack simulation, and log analysis.
 
@@ -37,28 +37,28 @@ This section provides a detailed network diagram that visualizes the lab's struc
 
     *Ref 1: NAT Network Configuration*
 
-   ![Screenshot 2024-09-09 222021](https://github.com/user-attachments/assets/fd86a27e-48c0-406d-968d-91e711b6de5f)
+    ![Screenshot 2024-09-09 222021](https://github.com/user-attachments/assets/fd86a27e-48c0-406d-968d-91e711b6de5f)
 
 2. **Static IP Configuration for Splunk Server**  
     - Configured a static IP `192.168.10.10` on the Ubuntu Splunk server.
 
     *Ref 2: Static IP Configuration*
 
-    ![Static IP Config](imgsrc)
+    ![Screenshot 2024-09-09 223531](https://github.com/user-attachments/assets/c14b3fd3-78e2-42cf-a6d6-c2e711b02ec7)
 
 3. **Installing Virtual Machines**  
     - Windows 10 (Target), Kali Linux (Attacker), Windows Server 2022 (AD Domain Controller), and Ubuntu Server (Splunk).
 
     *Ref 3: VM Setup Overview*
 
-   ![Screenshot 2024-09-09 221101](https://github.com/user-attachments/assets/128c1420-c32f-4462-a668-570b7e71c2e1)
+    ![Screenshot 2024-09-09 221101](https://github.com/user-attachments/assets/128c1420-c32f-4462-a668-570b7e71c2e1)
 
 4. **Configuring Static IP on Domain Controller**  
     - Set static IP `192.168.10.7` on Windows Server 2022.
 
     *Ref 4: Static IP for Domain Controller*
 
-    ![Static IP for Domain Controller](imgsrc)
+    ![Screenshot 2024-09-09 224631](https://github.com/user-attachments/assets/df20e0e9-1aef-4447-bb41-b22af9d00254)
 
 5. **Installing Active Directory Domain Services (AD DS)**  
     - Installed and configured AD DS on Windows Server 2022.
@@ -130,7 +130,7 @@ This section provides a detailed network diagram that visualizes the lab's struc
 
 *Ref 14: System Performance*
 
-![Task Manager Performance](imgsrc)
+![Screenshot 2024-09-04 051557](https://github.com/user-attachments/assets/11ee63dc-66ee-4aea-a22f-f71c17433890)
 
 ### Results
 - Successfully detected and mitigated brute force attacks using Splunk for analysis.
