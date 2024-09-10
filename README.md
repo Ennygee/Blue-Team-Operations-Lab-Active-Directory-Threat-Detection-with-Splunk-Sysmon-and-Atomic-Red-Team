@@ -21,6 +21,15 @@ This project simulates a real-world Active Directory (AD) environment, focusing 
 - **Splunk Universal Forwarder**: For forwarding logs from Windows machines to Splunk.
 - **Atomic Red Team**: Simulates real-world cyberattacks to generate telemetry.
 
+## Lab Diagram
+
+This section provides a detailed network diagram that visualizes the lab's structure. The diagram was created using **draw.io** and illustrates the relationships between key components such as the Domain Controller, Target Machine, Attack Machine, and Splunk Server. The network flows and connections are mapped out for easy understanding of the lab architecture.
+
+![Screenshot 2024-09-09 204521](https://github.com/user-attachments/assets/c69e0f48-d9e9-4e39-91cd-a5984441850a)
+
+*Explanation*: The diagram helps in visualizing the internal network and its configuration for Active Directory, attack simulation, and log analysis.
+
+
 ## Steps
 
 1. **Virtual Network Setup**  
