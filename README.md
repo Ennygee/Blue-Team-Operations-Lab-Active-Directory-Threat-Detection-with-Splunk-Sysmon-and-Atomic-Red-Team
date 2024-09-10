@@ -37,7 +37,7 @@ This section provides a detailed network diagram that visualizes the lab's struc
 
     *Ref 1: NAT Network Configuration*
 
-    ![NAT Network Setup](imgsrc)
+   ![Screenshot 2024-09-09 222021](https://github.com/user-attachments/assets/fd86a27e-48c0-406d-968d-91e711b6de5f)
 
 2. **Static IP Configuration for Splunk Server**  
     - Configured a static IP `192.168.10.10` on the Ubuntu Splunk server.
@@ -51,7 +51,7 @@ This section provides a detailed network diagram that visualizes the lab's struc
 
     *Ref 3: VM Setup Overview*
 
-    ![VM Overview](imgsrc)
+   ![Screenshot 2024-09-09 221101](https://github.com/user-attachments/assets/128c1420-c32f-4462-a668-570b7e71c2e1)
 
 4. **Configuring Static IP on Domain Controller**  
     - Set static IP `192.168.10.7` on Windows Server 2022.
