@@ -75,25 +75,25 @@ This section provides a detailed network diagram that visualizes the lab's struc
     ![Screenshot 2024-09-16 205257](https://github.com/user-attachments/assets/fb235843-fa3d-4496-b395-63e7297c46f7)
    
 8. **Joining Windows 10 to the Domain**  
-    - Joined Windows 10 to the domain `mydfir.local`.
+    - Joined Windows 10 to the domain `Ennyspc.local`.
 
-    *Ref 7: Domain Join Process*
+    *Ref 7: Windows 10 in Domain*
 
-    ![Domain Join](imgsrc)
+    ![Screenshot 2024-09-16 210857](https://github.com/user-attachments/assets/cf49b6d4-dc60-427f-a880-59531494ff6b)
 
 9. **Installing Splunk on Ubuntu Server**  
     - Installed Splunk and configured it to run at boot.
 
-    *Ref 8: Splunk Installation*
+    *Ref 8: Splunk File in Ubuntu server*
 
-    ![Splunk Install](imgsrc)
+    ![Screenshot 2024-09-16 212559](https://github.com/user-attachments/assets/ed1f63ad-dea6-4d9d-a52f-5acf2a786090)
 
 10. **Installing Sysmon and Splunk Forwarder on Windows**  
     - Installed Sysmon and Splunk Universal Forwarder for Windows event logs.
 
-    *Ref 9: Sysmon Setup*
+    *Ref 9: Splunk server receiving data from endpoint*
 
-    ![Sysmon Config](imgsrc)
+ ![image](https://github.com/user-attachments/assets/0e6099f7-84d1-4920-a939-3007d3ef07d4)
 
 11. **Conducting a Brute Force Attack from Kali Linux**  
     - Used Crowbar to brute force the Windows Target machine via RDP.
