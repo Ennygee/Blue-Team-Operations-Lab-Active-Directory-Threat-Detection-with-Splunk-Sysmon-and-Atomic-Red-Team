@@ -100,28 +100,27 @@ This section provides a detailed network diagram that visualizes the lab's struc
 
     *Ref 10: Brute Force Attack Execution*
 
-    ![Crowbar Attack](imgsrc)
+![image](https://github.com/user-attachments/assets/8453676b-45c5-415e-bc82-605f38b46717)
 
 12. **Analyzing the Attack in Splunk**  
     - Analyzed login attempts in Splunk (Event ID 4625 and 4624).
 
     *Ref 11: Log Analysis in Splunk*
 
-    ![Log Analysis](imgsrc)
+    ![image](https://github.com/user-attachments/assets/5d855eb1-dd48-4514-8d17-fd51b9cce1d3)
 
 13. **Installing Atomic Red Team on Windows 10**  
     - Installed Atomic Red Team for attack simulations.
 
-    *Ref 12: Atomic Red Team Setup*
+    *Ref 12: Atomic Red Team file on Target PC*
 
-    ![Atomic Red Team Install](imgsrc)
-
+    ![image](https://github.com/user-attachments/assets/48b2856f-ac42-48e6-86f1-58695c92ff6f)
 14. **Running Atomic Red Team Tests**  
     - Simulated a user creation attack (`T1136.001`) using Atomic Red Team.
 
     *Ref 13: Atomic Red Team Test Execution*
 
-    ![ART Test](imgsrc)
+  ![image](https://github.com/user-attachments/assets/2f8935b8-d696-4386-8b37-6ab91439a5ab)
 
 ### Challenges and Solutions
 - **Performance Issues**: Reduced RAM usage on the Domain Controller and Target Machine to 2GB each to avoid system overload.
@@ -139,7 +138,7 @@ This section provides a detailed network diagram that visualizes the lab's struc
 
 *Ref 15: Brute Force Attack Detected in Splunk*
 
-![Brute Force Detected](imgsrc)
+![image](https://github.com/user-attachments/assets/928e8ba9-c731-49e1-85db-90898a1bfcf1)
 
 ### Learning Outcomes
 - Proficiency in setting up and managing an Active Directory domain.
