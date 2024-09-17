@@ -63,60 +63,60 @@ This section provides a detailed network diagram that visualizes the lab's struc
 5. **Installing Active Directory Domain Services (AD DS)**  
     - Installed and configured AD DS on Windows Server 2022.
 
-    *Ref 5: AD DS Installation*
+    *Ref 5: AD DS Installed*
 
-    ![AD DS Installation](imgsrc)
+    ![Screenshot 2024-09-16 205514](https://github.com/user-attachments/assets/a30ca733-5a0a-4a7c-8f46-ad5bf3456cee)
 
 6. **Creating Organizational Units (OUs) and Users**  
-    - Created OUs in AD and added users like Jenny Smith and Terry Smith.
+    - Created OUs in AD and added users like James Bond and Halland Goal.
 
     *Ref 6: AD OU and User Creation*
 
-    ![User Creation](imgsrc)
-
-7. **Joining Windows 10 to the Domain**  
+    ![Screenshot 2024-09-16 205257](https://github.com/user-attachments/assets/fb235843-fa3d-4496-b395-63e7297c46f7)
+   
+8. **Joining Windows 10 to the Domain**  
     - Joined Windows 10 to the domain `mydfir.local`.
 
     *Ref 7: Domain Join Process*
 
     ![Domain Join](imgsrc)
 
-8. **Installing Splunk on Ubuntu Server**  
+9. **Installing Splunk on Ubuntu Server**  
     - Installed Splunk and configured it to run at boot.
 
     *Ref 8: Splunk Installation*
 
     ![Splunk Install](imgsrc)
 
-9. **Installing Sysmon and Splunk Forwarder on Windows**  
+10. **Installing Sysmon and Splunk Forwarder on Windows**  
     - Installed Sysmon and Splunk Universal Forwarder for Windows event logs.
 
     *Ref 9: Sysmon Setup*
 
     ![Sysmon Config](imgsrc)
 
-10. **Conducting a Brute Force Attack from Kali Linux**  
+11. **Conducting a Brute Force Attack from Kali Linux**  
     - Used Crowbar to brute force the Windows Target machine via RDP.
 
     *Ref 10: Brute Force Attack Execution*
 
     ![Crowbar Attack](imgsrc)
 
-11. **Analyzing the Attack in Splunk**  
+12. **Analyzing the Attack in Splunk**  
     - Analyzed login attempts in Splunk (Event ID 4625 and 4624).
 
     *Ref 11: Log Analysis in Splunk*
 
     ![Log Analysis](imgsrc)
 
-12. **Installing Atomic Red Team on Windows 10**  
+13. **Installing Atomic Red Team on Windows 10**  
     - Installed Atomic Red Team for attack simulations.
 
     *Ref 12: Atomic Red Team Setup*
 
     ![Atomic Red Team Install](imgsrc)
 
-13. **Running Atomic Red Team Tests**  
+14. **Running Atomic Red Team Tests**  
     - Simulated a user creation attack (`T1136.001`) using Atomic Red Team.
 
     *Ref 13: Atomic Red Team Test Execution*
